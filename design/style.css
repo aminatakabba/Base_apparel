@@ -1,0 +1,111 @@
+#logo {
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: -150px;
+    height: 100px;
+}
+.right {
+    float: right;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 200px;
+    flex-wrap: wrap;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1440px;
+    margin: 0px;
+    padding: 0px;
+}
+#email {
+    border-radius: 30px;
+    border-color: pink;
+    height: 50px;
+    width: 350px;
+    z-index: 2;
+    box-shadow: 0 10px 20px -2px gray;
+    padding: 12px 35px;
+}
+.btn {
+    border-radius: 30px;
+    background-color: pink;
+    width: 90px;
+    height: 50px;
+    z-index: 1;
+    position:absolute; 
+    right: 400px;
+    box-shadow: 0 10px 20px -2px gray;
+    padding: 12px 35px;
+}
+
+@media (max-width: 768px) {
+    #logo {
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: -150px;
+    width: 200px;
+    height: 100px;
+    }
+    #email {
+    border-radius: 30px;
+    border-color: pink;
+    height: 50px;
+    width: 350px;
+    z-index: 2;
+    box-shadow: 0 10px 20px -2px gray;
+    padding: 12px 35px;
+    }
+    .btn {
+    border-radius: 30px;
+    background-color: pink;
+    width: 90px;
+    height: 50px;
+    right: 390px;
+    box-shadow: 0 10px 20px -2px gray;
+    padding: 12px 35px;
+    }
+}
+@media (max-width: 460px) {
+    .btn {
+    border-radius: 30px;
+    background-color: pink;
+    width: 90px;
+    height: 50px;
+    right: 200px;
+    box-shadow: 0 10px 20px -2px gray;
+    padding: 12px 35px;
+    }
+}
+@media (max-width: 425px) {
+    .btn {
+    border-radius: 30px;
+    background-color: pink;
+    width: 90px;
+    height: 50px;
+    right: 200px;
+    box-shadow: 0 10px 20px -2px gray;
+    padding: 12px 35px;
+    }
+}
+@media (max-width: 320px) {
+    .btn {
+    border-radius: 30px;
+    background-color: pink;
+    width: 90px;
+    height: 50px;
+    right: 200px;
+    box-shadow: 0 10px 20px -2px gray;
+    padding: 12px 35px;
+    }
+}
+
