@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 #logo {
     float: left;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-top: -150px;
+    margin-top: 0px;
     height: 100px;
 }
 .right {
@@ -16,6 +17,7 @@
     flex-direction: column;
     padding-left: 200px;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 body {
     display: flex;
@@ -24,6 +26,8 @@ body {
     width: 1440px;
     margin: 0px;
     padding: 0px;
+    font-family: "Josefin Sans";
+    
 }
 #email {
     border-radius: 30px;
@@ -44,6 +48,19 @@ body {
     right: 400px;
     box-shadow: 0 10px 20px -2px gray;
     padding: 12px 35px;
+}
+#weare {
+    color: #ce9797;
+    font-size: 90px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+#coming {
+    color: #413a3a;
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 15px;
+    text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
